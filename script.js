@@ -46,7 +46,7 @@ const playSound = instrument => {
 /* Play the song */
 
 const playMusic = () => {
-    const song = new Audio('sounds/african-tribal-drums-beat.wav'); // https://freesound.org/people/peridactyloptrix/sounds/198491/
+    const song = new Audio('sounds/african-tribal-drums-beat.mp3'); // https://freesound.org/people/peridactyloptrix/sounds/198491/
     song.play();
 }
 
