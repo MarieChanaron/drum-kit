@@ -1,5 +1,7 @@
 # Drum Kit
 
+Lien vers le site : https://drumkit-m2i.netlify.app/
+
 ## Cadre
 
 Projet réalisé dans le cadre de la formation "Développeur Java" avec M2i.
