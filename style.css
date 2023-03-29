@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    box-sizing: border-box;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(41, 41, 68);
+    color: white;
+}
+
+h1 {
+    text-shadow: 0px 0px 3px red;
+    font-size: 60px;
+}
+
+header * {
+    display: inline;
+}
+
+header img {
+    width: 60px;
+    margin: 0 24px;
+}
+
+main {
+    width: 80%;
+    display: grid;
+    grid-gap: 24px;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 100px);
+    grid-auto-rows: 100px;
+}
+
+main div {
+    border: 6px solid rgb(74, 74, 109);
+    background-color: rgb(74, 74, 109);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+main div p {
+    background-color: white;
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    text-shadow: 2px 1px 0px white;
+}
+
+main div#w p {
+    background-image: url("images/tom1.png");
+}
+
+main div#a p {
+    background-image: url("images/tom2.png");
+}
+
+main div#s p {
+    background-image: url("images/tom3.png");
+}
+
+main div#d p {
+    background-image: url("images/tom4.png");
+}
+
+main div#j p {
+    background-image: url("images/snare.png");
+}
+
+main div#k p {
+    background-image: url("images/crash.png");
+}
+
+main div#l p {
+    background-image: url("images/kick.png");
+}
+
+main div p {
+    color: rgb(220, 46, 46);
+    font-size: 60px;
+    text-align: center;
+    height: 100%;
+    display: grid;
+    align-items: center;
+}
+
+button {
+    padding: 8px 24px;
+    border-radius: 6px;
+    font-size: large;
+    color: rgb(41, 41, 68);
+    border: none;
+    cursor: pointer;
+}
+
+footer span {
+    background: -webkit-linear-gradient(white 0%, red 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: red; /* Fallback for non webkit browsers */
+}
